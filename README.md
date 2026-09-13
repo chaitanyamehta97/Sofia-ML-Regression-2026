@@ -1,9 +1,21 @@
+## Approaches Evaluated
 
-Different Approaches Tried
+1. **Simple Linear Regression**
+2. **L1 Regularization (Lasso)**
+3. **L2 Regularization (Ridge)**
+4. **Feature Engineering** (Combined strongly correlated features)
 
-1) Simple Linear Regression
-2) L1 (Lasso) Regression
-3) L2 (Ridge) Regression
-4) Feature Engineering (Added Features that were a combination between strongly correlated features)
+---
 
-Simple Linear Regression did the best. 
+## Results
+
+**Simple Linear Regression** yielded the best performance:
+
+* **Public Leaderboard:** `0.57131`
+* **Private Leaderboard:** `0.54000`
+
+---
+
+## Some Learnings
+
+* **Outlier Removal:** Filtering out outliers led to severe overfitting—producing high training accuracy but poor generalization on the test set.
