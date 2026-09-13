@@ -12,7 +12,7 @@
 **Simple Linear Regression** yielded the best performance:
 
 * **Public Leaderboard:** `0.57131`
-* **Private Leaderboard:** `0.54000`
+* **Private Leaderboard:** `0.54011`
 
 ---
 
