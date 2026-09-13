@@ -3,7 +3,9 @@
 1. **Simple Linear Regression**
 2. **L1 Regularization (Lasso)**
 3. **L2 Regularization (Ridge)**
-4. **Feature Engineering** (Combined strongly correlated features)
+4. **Feature Engineering**
+      -- Drop features which are not contributing to help us predict the target [Helped]
+      -- Combined strongly correlated features [Did not help]
 
 ---
 
